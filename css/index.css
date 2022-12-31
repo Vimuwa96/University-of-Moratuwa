@@ -9,6 +9,23 @@
     overflow-x: hidden;
 }
 
+.dark_mode {
+position: relative;
+width: 40px;
+height: 40px;
+background-color: #ffffff;
+border-radius: 50%;
+position: fixed;
+color: rgb(0, 0, 0);
+z-index: 33;
+border: none;
+}
+
+.dark_mode_on{
+    background-color: #000000;
+    color: white;
+}
+
 #navbrand {
     color: white;
 }
@@ -37,7 +54,7 @@
 
 #main_header {
     justify-items: center;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 
@@ -49,6 +66,7 @@
 }
 
 .course {
+    padding-top: 10px;
     padding-bottom: 5px;
     border-left: 8px solid rgb(255, 42, 4);
     padding-left: 10px;
@@ -98,6 +116,8 @@
 #lessons{
     font-size: 1em; 
     align-items: center;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 
@@ -108,17 +128,16 @@
     font-size:5vh ;
 }
 
-#other_courses{
-    display:grid
-}
 
 
 
 .card{
+    cursor: pointer;
     background-color: rgb(255, 255, 255);
     text-align: center;
     width: 200px;
     height: 250px;
+    
 }
 
 .card:hover{
@@ -138,6 +157,7 @@
 
 
 .btn:hover {
+    cursor: help;
     background-color: rgb(255, 252, 252);
     color: rgb(0, 0, 0);
     padding-left: 10px;
@@ -169,7 +189,7 @@
     fill: #000000;
 }
 
-#social{
+#social1 , #social2, #social3, #social4, #social5 {
     padding: 8px;
     border-radius: 50%;
     background-color:white ;
@@ -177,8 +197,36 @@
     transition: 0.5s;
 }
 
-#social:hover{
+#social1:hover{
     padding: 8px;
-    background-color:rgb(82, 76, 76);  ;
+    background-color:rgb(64, 91, 248);  ;
     color: aliceblue;
+}
+
+#social2:hover{
+    padding: 8px;
+    background-color:rgb(30, 184, 255);  ;
+    color: aliceblue;
+}
+
+#social3:hover{
+    padding: 8px;
+    background-color:rgb(248, 63, 7);  ;
+    color: aliceblue;
+}
+
+#social4:hover{
+    padding: 8px;
+    background-color:rgb(24, 9, 243);  ;
+    color: aliceblue;
+}
+
+#social5:hover{
+    padding: 8px;
+    background-color:rgb(14, 126, 38);  ;
+    color: aliceblue;
+}
+
+#mywork{
+    padding-top: 25px;
 }
