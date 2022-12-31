@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+#navbrand {
+    color: white;
+}
+
+#navitem {
+    color: white;
+    transition: 0.5s;
+}
+
+#navitem:hover {
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 42, 4);
+}
+
+.navbar-toggler {
+    color: aliceblue;
+    background-color: aliceblue;
+}
+
+#icon{
+    margin: 0 7px 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_header {
+    justify-items: center;
+    padding-top: 50px;
+}
+
+
+.main {
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+    justify-content: center;
+}
+
+.course {
+    padding-bottom: 5px;
+    border-left: 8px solid rgb(255, 42, 4);
+    padding-left: 10px;
+    font-size:5vh ;
+}
+
+.para {
+    justify-content: center;
+    text-align: left;
+    font-size: 1em;
+}
+
+#user {
+    width: 50px;
+    cursor: pointer;
+    margin: 0 0 0 15px;
+}
+
+#user:hover {
+    background-color: brown;
+    width: 50px;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.enrolled {
+    border-radius: 15px;
+    color: aliceblue;
+    background-color: rgb(3, 3, 3);
+    width: 140px;
+    padding: 10px;
+    border: none;
+    transition: 0.5s;
+}
+
+.enrolled:hover {
+    border-radius: 15px;
+    color: rgb(253, 253, 253);
+    background-color: rgb(105, 23, 9);
+    padding-left: 20px;
+
+}
+
+
+#lessons{
+    font-size: 1em; 
+    align-items: center;
+}
+
+
+
+#other_courses_head{
+    border-left: 8px solid rgb(255, 42, 4);
+    padding-left: 10px;
+    font-size:5vh ;
+}
+
+#other_courses{
+    display:grid
+}
+
+
+
+.card{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    height: 250px;
+}
+
+.card:hover{
+    transition: 0.5s;
+    background-color: rgb(72, 8, 8);
+    color: rgb(254, 254, 255);
+    text-align: center;
+    width: 200px;
+    height: 250px;
+}
+
+.btn{
+    background-color: rgb(1, 1, 1);
+    color: rgb(255, 250, 250);
+    transition: 0.5s;
+}
+
+
+.btn:hover {
+    background-color: rgb(255, 252, 252);
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    transform: scale(1.2);
+}
+
+#footer {
+    background-color: #020202;
+}
+
+.custom-shape-divider-bottom-1672243727 {
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1672243727 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 58px;
+}
+
+.custom-shape-divider-bottom-1672243727 .shape-fill {
+    fill: #000000;
+}
+
+#social{
+    padding: 8px;
+    border-radius: 50%;
+    background-color:white ;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+#social:hover{
+    padding: 8px;
+    background-color:rgb(82, 76, 76);  ;
+    color: aliceblue;
+}
